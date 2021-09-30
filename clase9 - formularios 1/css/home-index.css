@@ -1,0 +1,187 @@
+body {
+    margin: 0;
+}
+
+* {
+    font-family: Roboto, sans-serif;
+}
+
+aside {
+    background-color: #1CD1B0;
+    font-size: 15px;
+    line-height: 17.58px;
+}
+
+h1 {
+    color: white;
+    margin: 0%;
+    font-size: 30px;
+    letter-spacing: 0.1em;
+    line-height: 35.16px;
+    display: inline-block;
+    position: absolute;
+    top: 35%;
+    margin-left: 20px;
+}
+
+h2 {
+    margin-top: 0px;
+}
+
+header {
+    background-color: #00669f;
+    top: 0px;
+    position: relative;
+}
+
+.aside-links {
+    background-color: #001D2D;
+    text-align: right;
+    height: 40px;
+    margin-bottom: 30px;
+}
+
+.aside-links a {
+    color: white;
+    position: relative;
+    top: 10px;
+    margin: 15px;
+}
+
+.card-body {
+    text-align: center;
+    height: 300px;
+    padding: 40px;
+}
+
+div p {
+    text-align: left;
+}
+
+
+/* Botón de ver más */
+
+.more-button {
+    background-color: #00669f;
+    padding: 15px;
+    width: 70px;
+    border-radius: 5%;
+    /* display: inline; */
+    margin: auto;
+}
+
+.more-button a {
+    color: white;
+}
+
+
+/* Características comúnes de las cartas */
+
+.hero-cards {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 100px;
+    }
+
+.card {
+    width: 450px;
+    position: relative;
+    margin-top: 100px;
+    background-color: #F3F3F3;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: inline-block;
+    margin: 20px;
+}
+
+
+/*Estilos del corazón*/
+
+.fa-heart {
+    position: absolute;
+    color: #CC2424;
+    font-size: 250%;
+    left: 20px;
+    top: 20px;
+}
+
+.fa-plus-circle {
+    color: #00669f;
+    position: fixed;
+    font-size: 50px;
+    right: 20px;
+    bottom: 400px;
+    z-index: 200;
+}
+
+
+/* Características comúnes de los header */
+
+.card-header {
+    position: relative;
+    height: 400px;
+    background-size: cover;
+    border-radius: 20%;
+}
+
+
+/* Portada de batman */
+
+.hero-background {
+    height: 320px;
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+}
+
+
+/* Características comúnes de foto de perfíl */
+
+.profile-hero {
+    background-size: cover;
+    position: absolute;
+    bottom: -20px;
+    left: 28%;
+    width: 210px;
+    height: 210px;
+    border-radius: 50%;
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    height: 61px;
+    background: #00669F;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+.profile-batman {
+    background-image: url(../img/batman.jpg);
+    background-position: right 750px bottom 5px;
+}
+
+.background-batman {
+    background-image: url(../img/bg-batman.jpg);
+}
+
+.profile-wonderwoman {
+    background-image: url(../img/wonderw.jpg);
+}
+
+.background-wonderwoman {
+    background-image: url(../img/bg-wonderw.jpg);
+}
+
+.profile-superman {
+    background-image: url(../img/superman.jpg);
+    background-position: left -40px bottom 5px;
+}
+
+.background-superman {
+    background-image: url(../img/bg-superman.jpg);
+}

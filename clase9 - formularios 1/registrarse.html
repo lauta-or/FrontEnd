@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <aside>
+        <div class="descuento">20% de descuento en todos los productos!</div>
+    </aside>
+    <header>
+        <span><img class="logo" src="./img/logo 1.png" alt="logo tienda"></span><span class="tienda"> Nombre Tienda</span>
+    </header>
+    <section class="ingresando">
+        <h1>Registro</h1>
+        <form action="./contacto.html" method="GET">
+            <div>
+                <input class="contenido-form" type="text" name="nombre" placeholder="Nombre y Apellido" required></div>
+
+            <div>
+                <input class="contenido-form" type="email" name="correo" placeholder="Correo Electrónico" required></div>
+
+            <div>
+                <input class="contenido-form" type="password" name="contrasenia" placeholder="Contraseña" required></div>
+
+            <div>
+                <select class="contenido-form" name="pais" aria-placeholder="País">
+                <option value="argentina">Argentina</option>
+                <option value="colombia">Colombia</option>
+                <option value="brasil">Brasil</option>
+                </select>
+            </div>
+
+            <span><input class="boton-registro reseteando" type="reset" name="resetear" id="resetear" value="Resetear"></span>
+
+            <span><input class="boton-registro entrando" type="submit" name="entrar" id="entrar" value="Entrar"></span>       
+        </form>
+        <div><a class="link-registro" href="./index.html">¿Ya tenes una cuenta <span class="sacar-color-link"> Ingresá</span></a></div>
+    </section>
+    <footer>
+        <p class="derechos-reservados">Todos los derechos reservados a FRONT END 1</p>
+    </footer>
+    
+</body>
+</html>
